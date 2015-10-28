@@ -1,0 +1,24 @@
+{
+    "name": "superbull/sixtool",
+    "keywords": ["php", "lib"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Deng Zhi Cheng",
+            "email": "superbulldeng@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "container-interop/container-interop": "^1.1",
+        "league/plates": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SixTool\\": "src/"
+        }
+    }
+}
